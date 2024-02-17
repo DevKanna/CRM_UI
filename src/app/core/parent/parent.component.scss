@@ -1,0 +1,12 @@
+/* Apply a flex container to the body, making it a column layout */:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+
+
+::ng-deep app-footer {
+  margin-top: auto;
+}

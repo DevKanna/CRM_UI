@@ -1,0 +1,7 @@
+<div *ngIf="data.name == 'approval'" class="dialog-container" style="margin: 10px;">
+    <mat-dialog-content class="message">{{ data.message }}</mat-dialog-content>
+    <div class="button-container">
+        <button (click)="close()" class="btn btn-secondary">Cancel</button>
+        <button (click)="done()" class="btn btn-light">Ok</button>
+    </div>
+</div>

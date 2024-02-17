@@ -1,0 +1,17 @@
+<div class="container">
+        <h1 class="text-center">Create/Update Content</h1>
+    <div class="NgxEditor__Wrapper">
+        <ngx-editor-menu [editor]="editor" [toolbar]="toolbar"  > </ngx-editor-menu>
+        <ngx-editor [editor]="editor" [(ngModel)]="html"  [disabled]="false" [placeholder]="'Type here...'"></ngx-editor>
+        
+    </div>
+    <div style="text-align: center;padding-top: 10px;">
+        <button class="btn btn-success" (click)="sent()">Submit</button>
+    </div>
+</div>
+
+<!-- <div>
+    <h4>HTML Content:</h4>
+    <div [innerHTML]="sanitizedHtml"></div>
+  </div> -->
+

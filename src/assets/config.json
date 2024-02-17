@@ -1,0 +1,7 @@
+{
+    "BASE_URL" : "http://192.168.11.193:8001",
+    "ADMIN_URL" : "/admin",
+    "USER_URL" : "/user",
+    "SERVICE_PROVIDER": "/service-provider"
+   
+}

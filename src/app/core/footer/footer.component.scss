@@ -1,0 +1,60 @@
+
+section {
+    padding: 60px 0;
+    min-height: 100vh;
+  }
+  a,
+  a:hover,
+  a:focus,
+  a:active {
+    text-decoration: none;
+    outline: none;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .main-footer {
+    background: #DFF0D8;
+  }
+  
+  .footer-content {
+    position: relative;
+    padding: 85px 0px 80px 0px;
+  }
+  
+  .footer-content .logo-widget .text p {
+    color: black;
+    margin-bottom: 32px;
+  }
+  .footer-content .footer-title {
+    position: relative;
+    font-size: 24px;
+    line-height: 35px;
+    font-family: "Playfair Display", serif;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 27px;
+  }
+  .footer-content .service-widget .list li {
+    display: block;
+    margin-bottom: 12px;
+  }
+  .footer-content .service-widget .list li a {
+    position: relative;
+    display: inline-block;
+    color: black;
+  }
+  .footer-content .service-widget .list li a:hover {
+    color: darkcyan;
+  }
+  .footer-content .contact-widget p {
+    color: black;
+    margin-bottom: 15px;
+  }
+  .logo-box img {
+    max-width: 220px;
+  }
+  

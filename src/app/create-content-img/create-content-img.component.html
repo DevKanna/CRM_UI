@@ -1,0 +1,26 @@
+<div class="container-fulid">
+    <h1 class="text-center">Upload Your Content Images</h1>
+<form #slideshowForm class="file-uploader text-center">
+    <label for="file-input">Select your Content image</label>
+    <input id="file-input" type="file" (change)="fileChangeEvent($event)" />
+</form>
+
+<image-cropper 
+    [imageChangedEvent]="imageChangedEvent" 
+    [maintainAspectRatio]="true" 
+    [aspectRatio]="4 / 1.5"
+    format="png" 
+    [resizeToWidth]="1200" 
+    (imageCropped)="imageCropped($event)" 
+    (imageLoaded)="imageLoaded($event)"
+    (cropperReady)="cropperReady()" 
+    (loadImageFailed)="loadImageFailed()">
+</image-cropper>
+
+<!-- <img [src]="Image" class=" d-block w-100 mx-auto" width="300" height="auto" /> -->
+<div class="button text-center">
+    <button class="btn btn-success" type="submit"  (click)="submit()">Submit</button>
+</div>
+
+</div>
+
